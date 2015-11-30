@@ -1,0 +1,25 @@
+{
+  "name": "ng2-traceur",
+  "version": "0.0.1",
+  "description": "Angular2 with Traceur and Grunt",
+  "author": "Tiago Braga <braga.tiago.93@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbragaf/ng2-traceur.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-traceur": "^0.5.4",
+    "rtts_assert": "0.0.1",
+    "traceur": "0.0.93"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.46",
+    "systemjs": "^0.19.6"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular2 with babel</title>
+    
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+    
+    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="../node_modules/angular2/bundles/router.dev.js"></script>
+  </head>
+  <body>
+    <app>Loading...</app>
+    
+    <script>
+      System.import('bootstrap.js').catch(function (response) {
+        console.error(response);
+      });
+    </script>
+  </body>
+</html>
