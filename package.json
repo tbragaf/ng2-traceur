@@ -1,5 +1,5 @@
 {
-  "name": "ng2-traceur",
+  "name": "ng2-traceur-grunt",
   "version": "0.0.1",
   "description": "Angular2 with Traceur and Grunt",
   "author": "Tiago Braga <braga.tiago.93@gmail.com>",
